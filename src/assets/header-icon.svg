@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="header-icon">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-40 -28)" clip-path="url(#clip-path)">
+        <g id="Page-1" transform="translate(39.808 27.808)">
+            <g id="Group" transform="translate(.962 .962)">
+                <g id="coding" transform="translate(7.212 5.409)">
+                    <path id="Path" d="M16.5 8.106v2.121l5.379 5.379-5.379 5.379v2.121l7.5-7.5z" stroke-width="0" />
+                    <path id="Path-2" d="M7.5 23.106v-2.121l-5.379-5.379L7.5 10.227V8.106l-7.5 7.5z"  data-name="Path" stroke-width="0" />
+                    <path id="Path-3" d="M-.336 14.856h24.674v1.5H-.336z" class="cls-3" data-name="Path" transform="rotate(-72.6 12 15.61)" stroke-width="0" />
+                    <path id="Path-4" d="M9.75 8.106A4.392 4.392 0 0112 5.856a4.392 4.392 0 01-2.25-2.25 4.392 4.392 0 01-2.25 2.25 4.392 4.392 0 012.25 2.25z" data-name="Path" stroke-width="0" />
+                    <path id="Path-Copy" d="M13.668 2.4a2.346 2.346 0 011.2-1.2 2.346 2.346 0 01-1.2-1.2 2.346 2.346 0 01-1.2 1.2 2.346 2.346 0 011.2 1.2z" stroke-width="0" />
+                    <path id="Path-5" d="M21 8.106a2.928 2.928 0 011.5-1.5 2.928 2.928 0 01-1.5-1.5 2.928 2.928 0 01-1.5 1.5 2.928 2.928 0 011.5 1.5z"  data-name="Path" stroke-width="0" />
+                </g>
+                <circle id="Oval" cx="19.231" cy="19.231" r="19.231" fill="none" stroke-width="1.538" />
+            </g>
+        </g>
+    </g>
+    </symbol>
+  </defs>
+</svg>

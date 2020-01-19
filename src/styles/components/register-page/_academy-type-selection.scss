@@ -1,0 +1,147 @@
+.academy-type {
+  $_this: &;
+
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+
+  &__text {
+    color: $color-main-primary;
+    font-size: small;
+    margin-bottom: 1.5rem;
+
+    &::after {
+      color: $color-form-asterisk;
+      content: '*';
+      font-weight: bold;
+    }
+
+    &--error {
+      color: $color-main-error;
+    }
+  }
+
+  &__radio {
+    align-items: center;
+    background-color: $color-white;
+    border: solid 2px $color-main-dark;
+    border-radius: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    width: 100%;
+
+    @include tablet {
+      border-radius: 4rem;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      padding: .5rem .7rem;
+      width: fit-content;
+    }
+
+    @include desktop {
+      margin: 0;
+      width: fit-content;
+    }
+  }
+
+  &__error-text {
+    color: $color-main-error;
+    font-size: 1.2rem;
+    height: 1.4rem;
+    margin-top: 1.5rem;
+    opacity: 0;
+    padding-left: 1.6rem;
+    transition: opacity .3s .5s;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  &__radio-element {
+    display: flex;
+    outline: none;
+    position: relative;
+    width: 100%;
+
+    &:first-of-type {
+      margin-bottom: .4rem;
+
+      @include tablet {
+        margin-bottom: 0;
+        margin-right: .4rem;
+      }
+    }
+
+    &:last-of-type {
+      margin-top: .4rem;
+
+      @include tablet {
+        margin-left: .4rem;
+        margin-top: 0;
+      }
+    }
+
+    &:not(:nth-of-type(1)):not(:last-child) {
+      margin: .4rem 0;
+
+      @include tablet {
+        margin: 0 .4rem;
+      }
+    }
+
+    &:focus-within #{$_this}__label {
+      background-color: $color-form-btn-hover-focus;
+      color: $color-white;
+    }
+  }
+
+  &__input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  &__label {
+    background-color: $color-white;
+    border-radius: 2.4rem;
+    color: $color-main-text;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1.4rem 4rem 1.3rem;
+    width: 100%;
+
+    &:focus,
+    &:hover {
+      background-color: $color-form-btn-hover-focus;
+      color: $color-white;
+      transition: background-color .2s ease-in, color .2s ease-in;
+    }
+
+    &:disabled {
+      background-color: $color-form-checkbox--focus;
+      color: $color-white;
+    }
+
+    @include tablet {
+      border-radius: 4rem;
+      min-width: fit-content;
+      width: fit-content;
+    }
+
+    @include desktop {
+      width: fit-content;
+    }
+  }
+
+  &__input:checked + label {
+    background-color: $color-main-primary;
+    color: $color-white;
+    transition: background-color .2s ease-in, color .2s ease-in;
+  }
+
+  @include tablet {
+    text-align: left;
+  }
+}

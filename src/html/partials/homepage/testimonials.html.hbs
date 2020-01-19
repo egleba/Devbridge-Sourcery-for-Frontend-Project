@@ -1,0 +1,17 @@
+<section class="container testimonials__container">
+    <h2 class="testimonials__heading section-heading">{{homepage.testimonials-section.title}}</h2>
+    <div class="testimonials__content">
+        {{#each homepage.testimonials-section.content-boxes}}
+        <figure class="testimonials__content-box">
+            <div class="testimonials__image">
+                <img src="{{this.img.src}}" alt="{{this.img.alt}}" class="testimonials__user-picture" aria-hidden="true">
+            </div>
+            <div class="testimonials__text-box">
+                    <p class="testimonials__comment text--small">{{this.content}}</p>
+                <p class="testimonials__user-name text--testimonials-name">{{this.author}}</p>
+                <p class="testimonials__title text--small text--color">{{this.title}}</p>
+            </div>
+        </figure>
+        {{/each}}
+    </div>
+</section>

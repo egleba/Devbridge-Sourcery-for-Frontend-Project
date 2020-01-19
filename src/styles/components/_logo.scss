@@ -1,0 +1,34 @@
+.header {
+  $_this: &;
+
+  &__icon {
+    fill: $color-main-dark;
+    stroke: $color-main-dark;
+  }
+
+  &__logo-items {
+    align-items: center;
+    display: flex;
+
+    &:hover {
+      #{$_this}__icon {
+        fill: $color-main-primary;
+        stroke: $color-main-primary;
+      }
+
+      #{$_this}__logo-title {
+        color: $color-main-primary;
+      }
+    }
+  }
+
+  &__logo-link {
+    text-decoration: none;
+  }
+
+  &__logo-title {
+    color: $color-main-dark;
+    font-weight: 600;
+    padding: 0 2rem;
+  }
+}

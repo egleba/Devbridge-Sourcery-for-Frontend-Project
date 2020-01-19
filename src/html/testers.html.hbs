@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> partials/head.html head-content=academies.testers.head-content}}
+
+<body class="page-testers">
+  {{> partials/skip-to-content.html}}
+  {{> partials/header.html nav-items=homepage.header.nav-items}}
+  <main id="content">
+    <div class="background-wrapper background-wrapper--academy">
+      {{> partials/background/background-academy.html page-content=academy-intro.testers}}
+      <div class="background background--academy">
+        {{> partials/academy-page/academy-intro.html page-content=academy-intro.testers }}
+        <div class="particle-wrapper">
+          <canvas></canvas>
+          {{> partials/academy-page/steps.html steps-section=academies.testers.steps-section }}
+          {{> partials/academy-page/admission-section.html link=academies.testers.admission-dates-section page="testers"}}
+          {{> partials/academy-page/schedule.html page=academies.testers}}
+          {{> partials/academy-page/testers-testimonials.html}}
+          {{> partials/homepage/media.html video-id=video-id.testers}}
+          {{> partials/academy-page/apply-to-academy.html apply-section=academies.testers.apply-section}}
+        </div>
+      </div>
+    </div>
+  </main>
+  {{> partials/footer.html}}
+  {{> partials/video.html video-id=video-id.testers}}
+</body>
+</html>

@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.toggle-scroll-lock {
+  overflow: hidden;
+  position: fixed;
+}
+
+.container {
+  padding-left: $mobile-padding-sides;
+  padding-right: $mobile-padding-sides;
+  width: 100%;
+
+  @include tablet {
+    padding-left: $tablet-padding-sides;
+    padding-right: $tablet-padding-sides;
+  }
+
+  @include desktop {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(#{$width--primary} + (2 * #{$tablet-padding-sides}));
+  }
+
+  &--header,
+  &--footer {
+    @include desktop {
+      max-width: calc(#{$width--secondary} + (2 * #{$tablet-padding-sides}));
+    }
+  }
+
+  &--narrow {
+    max-width: calc(#{$width--tertiary} + (2 * #{$tablet-padding-sides}));
+  }
+}
+
+@mixin full-height {
+  height: calc(100vh - #{$header-height});
+  max-height: 80rem;
+  min-height: 58rem;
+}

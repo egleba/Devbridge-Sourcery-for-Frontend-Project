@@ -1,0 +1,30 @@
+.close-btn {
+  $_this: &;
+
+  align-items: center;
+  background: transparent;
+  border: 0;
+  display: flex;
+  height: 2.8rem;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 2.8rem;
+
+  &__icon {
+    color: $color-white;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    #{$_this}__icon {
+      color: $color-main-primary;
+      transition: .25s ease;
+    }
+  }
+}

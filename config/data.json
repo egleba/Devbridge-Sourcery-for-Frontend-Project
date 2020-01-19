@@ -1,0 +1,1448 @@
+{
+  "homepage": {
+    "head-content": [
+      {
+        "title": "Home Page",
+        "description": "The Devbridge Sourcery Academy was created to allow students improve their skills and prepare for a career in the IT industry. Additionally, each student is awarded a trial with the company, giving them a chance to gain real work experience.",
+        "og-url": "/",
+        "og-title": "Sourcery Academy",
+        "og-img": "./assets/Home-og-img.png"
+      }
+    ],
+    "header": {
+      "title": "Sourcery Academy",
+      "link": {
+        "href": "/",
+        "title": "Home page",
+        "aria-label": "Go to home page"
+      },
+      "nav-items": {
+        "nav-links": {
+          "link-1": "About us",
+          "link-2": "Media",
+          "link-3": "Register",
+          "link-4": "Questions"
+        },
+        "nav-buttons": {
+          "button-1": "Academies"
+        },
+        "submenu-links": {
+          "link-1": "Sourcery for Developers",
+          "link-2": "Sourcery for Testers",
+          "link-3": "Sourcery for Front-End",
+          "link-4": "Sourcery for Kids"
+        }
+      }
+    },
+    "intro-section": {
+      "title": "Sourcery Academy",
+      "content": "Sourcery academy is our free of charge education program created to allow students to improve their skills and prepare for a career in the IT industry.There are three academies available. They serve as our long - term commitment to increase the number of students in Lithuania entering information technologies studies.",
+      "btn": {
+        "content": "View academies",
+        "aria-label": "Go to academies section"
+      },
+      "img": {
+        "src": "./assets/intro-section.svg",
+        "alt": "Human interaction with technologies"
+      }
+    },
+    "academies-section": {
+      "title": "Academies",
+      "content": "There are four disciplines available: for developers, testers, front-end developers and kids. Academies are taking place in Devbridge Lithuanian offices. Students, who are willing to join developers, testers or Front-End academies, need to pass the test, prove their best to get an invitation to enroll. This rule doesn’t apply to the kids (7 to 12 years old) academy, the admission is limited only by available number of entries.",
+      "link": {
+        "aria-label": "Go to list of academies"
+      },
+      "img": {
+        "src": "assets/index/arrow.svg"
+      }
+    },
+    "academies-list-section": {
+      "developers": {
+        "title": "Sourcery for Developers",
+        "content": "A free of charge three-month cutting-edge technology course, available in the Spring and Fall of each year.Students are invited to the Devbridge in Kaunas and Vilnius offices to attend lectures and create custom projects with the help of software development professionals.",
+        "btn": {
+          "content": "Learn more",
+          "aria-label": "Go to Sourcery for Developers page",
+          "href": "developers"
+        },
+        "img": {
+          "src": "assets/index/developers.svg",
+          "alt": "A person working on a laptop"
+        }
+      },
+      "testers": {
+        "title": "Sourcery for Testers",
+        "content": "Top-notch studies for the future Test Engineers. Students join the Devbridge team as a paid employee for the Academy period (two months) to learn and work. Ones who finish the Academy successfully are invited to continue employment on full time.",
+        "btn": {
+          "content": "Learn more",
+          "aria-label": "Go to Sourcery for Testers page",
+          "href": "testers"
+        },
+        "img": {
+          "src": "assets/index/testers.svg",
+          "alt": "A bug on a screen"
+        }
+      },
+      "front-end": {
+        "title": "Sourcery for Front-End",
+        "content": "Start your career in software development with the intense program at Sourcery for Front-End Developers. Complete the admission and enter our free of charge two-month academy this autumn in Vilnius to learn from our top specialists.",
+        "btn": {
+          "content": "Learn more",
+          "aria-label": "Go to Sourcery for Front-End page",
+          "href": "frontend"
+        },
+        "img": {
+          "src": "assets/index/front-end.svg",
+          "alt": "Logos of HTML, CSS and Javascript"
+        }
+      },
+      "kids": {
+        "title": "Sourcery for Kids",
+        "content": "Sourcery for Kids seeks to educate kids giving them opportunity to learn and apply technological product development skills. For the entire academic year, the children will study key aspects of programming, from logical concepts and functions, through to variables, sequences, coordinates, and movement.",
+        "btn": {
+          "content": "Learn more",
+          "aria-label": "Go to Sourcery for Kids page",
+          "href": "kids"
+        },
+        "img": {
+          "src": "assets/index/kids.svg",
+          "alt": "A person building a robot"
+        }
+      }
+    },
+    "testimonials-section": {
+      "title": "Testimonials",
+      "content-boxes": [
+        {
+          "img": {
+            "src": "./assets/user-1.jpg",
+            "alt": "User image"
+          },
+          "content": "Sourcery seeks to inspire and educate the students giving them the opportunity to learn and apply technological product development skills.",
+          "author": "Laura Hales",
+          "title": "Sourcery for Testers Graduate"
+        },
+        {
+          "img": {
+            "src": "./assets/user-2.jpg",
+            "alt": "User image"
+          },
+          "content": "During the 3 month academy we managed to learn not only the basics, but also to create advanced web pages. I am glad that I chose to apply and challenge myself. I would definitely recommend to apply for anyone who’s interested in front-end.",
+          "author": "Lucas Celab",
+          "title": "Sourcery for Front-End Graduate"
+        },
+        {
+          "img": {
+            "src": "./assets/user-3.jpg",
+            "alt": "User image"
+          },
+          "content": "I really enjoyed working with the team using agile principles.",
+          "author": "Thomas Shelby",
+          "title": "Sourcery for Developers Graduate"
+        }
+      ]
+    },
+    "media-section": {
+      "title": "Media",
+      "items": [
+        {
+          "img": {
+            "src": "./assets/home-media-img-0.jpg",
+            "alt": "Students are taking the admission test"
+          }
+        },
+        {
+          "img": {
+            "src": "./assets/home-media-img-1.jpg",
+            "alt": "Students are participaring in workshop"
+          }
+        },
+        {
+          "img": {
+            "src": "./assets/home-media-img-2.jpg",
+            "alt": "The first day of sourcery academy"
+          }
+        },
+        {
+          "img": {
+            "src": "./assets/home-media-img-3.jpg",
+            "alt": "Sourcery for kids closure"
+          }
+        },
+        {
+          "img": {
+            "src": "./assets/home-media-img-4.jpg",
+            "alt": "Student is taking a virtual tour of DevBridge offices"
+          }
+        },
+        {
+          "img": {
+            "src": "./assets/home-media-img-5.jpg",
+            "alt": "Students are participaring in workshop"
+          },
+          "svg": {
+            "href": "assets/icons.svg#play-icon"
+          }
+        }
+      ]
+    },
+    "footer": {
+      "social-media": [
+        {
+          "link": {
+            "href": "http://www.facebook.com/Devbridge",
+            "aria-label": "Facebook (New Window)"
+          },
+          "img": {
+            "src": "assets/icons.svg#facebook-icon"
+          }
+        },
+        {
+          "link": {
+            "href": "https://www.twitter.com/devbridge",
+            "aria-label": "Twitter (New Window)"
+          },
+          "img": {
+            "src": "assets/icons.svg#twitter-icon"
+          }
+        },
+        {
+          "link": {
+            "href": "http://www.instagram.com/Devbridge",
+            "aria-label": "Instagram (New Window)"
+          },
+          "img": {
+            "src": "assets/icons.svg#instagram-icon"
+          }
+        }
+      ],
+      "content": "Copyright \u00A9 Sourcery Academy"
+    }
+  },
+  "register": {
+    "head-content": [
+      {
+        "title": "Register",
+        "description": "Select Academy. There are three disciplines available: for Developers, Testers and Front-End. Academies are taking place in Devbridge Lithuanian offices. Students, who are willing to join developers, testers or Front-End academies, need to pass the test, prove their best to get an invitation to enroll.",
+        "og-url": "/register",
+        "og-title": "Sourcery Academy Register",
+        "og-img": "./assets/Registration-og-img.png"
+      }
+    ],
+    "academy-city-options": {
+      "title": "Academy city",
+      "options": [
+        {
+          "title": "Kaunas",
+          "option-id": "kaunas",
+          "tabindex": 0
+        },
+        {
+          "title": "Vilnius",
+          "option-id": "vilnius",
+          "tabindex": 0
+        }
+      ]
+    },
+    "personal-information-form": {
+      "firstname": {
+        "title": "First Name",
+        "aria-label": "Enter first name"
+      },
+      "lastname": {
+        "title": "Last Name",
+        "aria-label": "Enter last name"
+      },
+      "email": {
+        "title": "Email",
+        "aria-label": "Enter email address"
+      },
+      "skype-id": {
+        "title": "Skype ID",
+        "aria-label": "Enter skype id"
+      }
+    },
+    "fileinput-component": {
+      "text": "Resume (in .pdf format)",
+      "text-required": "*",
+      "content": "Upload your resume",
+      "error": "File not uploaded or wrong format uploaded"
+    },
+    "checkbox-component": {
+      "content": "I have read, understand and accept the content of the Privacy Notice and consent to the processing of my data as part of this"
+    }
+  },
+  "success": {
+    "head-content": [
+      {
+        "title": "Registration Successful",
+        "description": "Registration to Sourcery Academy Successful",
+        "og-url": "/success",
+        "og-title": "Sourcery Academy Registration Successful",
+        "og-img": "./assets/Registration-og-img.png"
+      }
+    ],
+    "title": "Sourcery Academy Application",
+    "subtitle": "Thank you!",
+    "content": "Your form was submitted "
+  },
+  "academies": {
+    "testers": {
+      "head-content": [
+        {
+          "title": "Sourcery for Testers",
+          "description": "Set your inner tester free with Sourcery for Testers! Kick off your career in software testing with our free of charge two-month academy “Sourcery for Testers”, available this summer. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius.",
+          "og-url": "/testers",
+          "og-title": "Sourcery for Testers",
+          "og-img": "./assets/Testers-og-img.png"
+        }
+      ],
+      "apply-section": {
+        "content": "Set your inner tester free and apply to empower yourself with the top-notch studies for the future Test Engineers!",
+        "img": {
+          "src": "../assets/apply-testers.svg",
+          "alt": "Woman in midair cheering with a mobile phone showing checkmark sign in the background"
+        }
+      },
+      "admission-dates-section": {
+        "content": {
+          "first-row": "Application deadline",
+          "second-row": "Admission",
+          "third-row": "Academy duration"
+        },
+        "months": {
+          "first-row": "May",
+          "second-row": "May May",
+          "third-row": "Jun Aug"
+        },
+        "days": {
+          "first-row": "17",
+          "second-row": "28 - 29",
+          "third-row": "26 - 30"
+        }
+      },
+      "schedule-section": {
+        "title": "Schedule",
+        "months": [
+          {
+            "title": "June / July",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Testing Foundations. Manual Testing. Exploratory Testing",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "25",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "27",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Understanding Agile. Continuous Testing",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Web Testing Specifics",
+                    "lecturer": "Asta Dagienė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "July",
+                        "day": "10",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "July",
+                        "day": "11",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Mobile Testing Specifics",
+                    "lecturer": "Asta Dagienė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "July",
+                        "day": "14",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "July",
+                        "day": "15",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Server-side Testing Specifics",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "July",
+                        "day": "20",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "July",
+                        "day": "21",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Test Automation: Theory and Practice (Part 1)",
+                    "lecturer": "Asta Dagienė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "July",
+                        "day": "26",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "July",
+                        "day": "27",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Test Automation: Theory and Practice (Part 2)",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "July",
+                        "day": "28",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "July",
+                        "day": "29",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "July / August",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Non-functional testing: Security",
+                    "lecturer": "Vilius Pankauskas",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Aug",
+                        "day": "7",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Aug",
+                        "day": "5",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Non-functional testing: Performance",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Aug",
+                        "day": "13",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Aug",
+                        "day": "14",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Non-functional testing: Accessibility",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Aug",
+                        "day": "20",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Aug",
+                        "day": "21",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Bonus: Machine Learning Basics",
+                    "lecturer": "Vilius Pankauskas",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Aug",
+                        "day": "25",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Aug",
+                        "day": "27",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Evaluation workshop",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Aug",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Aug",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "September",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Non-functional testing: Security",
+                    "lecturer": "Vilius Pankauskas",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "7",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "5",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Non-functional testing: Performance",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "13",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "14",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Non-functional testing: Accessibility",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "20",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "21",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Bonus: Machine Learning Basics",
+                    "lecturer": "Vilius Pankauskas",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "25",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "27",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Evaluation workshop",
+                    "lecturer": "Gerda Monkevičiūtė",
+                    "time": "11:00 am",
+                    "duration": "5 hours",
+                    "events": [
+                      {
+                        "month": "Sep",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Sep",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "steps-section": [
+        {
+          "number": "1",
+          "step-one": true,
+          "title": "Apply",
+          "content": "Academy students are given an opportunity to be immersed in a professional two-month course for the testing beginners, build their competence through trainings and individual or groups assignments."
+        },
+        {
+          "number": "2",
+          "step-two": true,
+          "title": "Pass the admission",
+          "content": "Best candidates will be offered a paid internship for the Academy period to work on the real projects with our development teams. In parallel they are expected to attend academy to develop their skills."
+        },
+        {
+          "number": "3",
+          "step-three": true,
+          "title": "Learn from the experts",
+          "content": "Students will discover all types of techniques: learn the foundations of testing, functional testing for web applications and API, foundations of non-functional testing and foundations for test automation."
+        },
+        {
+          "number": "4",
+          "step-four": true,
+          "title": "Join the company",
+          "content": "At the end of term all students will receive a certificate of completion the Sourcery academy for Testers. Top graduates will be invited for an interview to become a Junior Test Engineer."
+        }
+      ],
+      "testimonials": {
+        "title": "Testimonials",
+        "content-boxes": [
+          {
+            "img": {
+              "src": "./assets/user-1.jpg",
+              "alt": "User image"
+            },
+            "content": "Sourcery seeks to inspire and educate the students giving them the opportunity to learn and apply technological product development skills.",
+            "author": "Laura Hales",
+            "title": "Sourcery for Testers Graduate"
+          },
+          {
+            "img": {
+              "src": "./assets/user-2.jpg",
+              "alt": "User image"
+            },
+            "content": "During the 3 month academy we managed to learn not only the basics, but also to create advanced web pages. I am glad that I chose to apply and challenge myself. I would definitely recommend to apply for anyone who’s interested in front-end.",
+            "author": "Lucas Celab",
+            "title": "Sourcery for Testers Graduate"
+          },
+          {
+            "img": {
+              "src": "./assets/user-3.jpg",
+              "alt": "User image"
+            },
+            "content": "I really enjoyed working with the team using agile principles.",
+            "author": "Thomas Shelby",
+            "title": "Sourcery for Testers Graduate"
+          },
+          {
+            "img": {
+              "src": "./assets/user-4.jpg",
+              "alt": "User image"
+            },
+            "content": "Sourcery seeks to inspire and educate the students giving them the opportunity to learn and apply technological product development skills.",
+            "author": "Michelle Williams",
+            "title": "Sourcery for Testers Graduate"
+          },
+          {
+            "img": {
+              "src": "./assets/user-5.jpg",
+              "alt": "User image"
+            },
+            "content": "During the 3 month academy we managed to learn not only the basics, but also to create advanced web pages. I am glad that I chose to apply and challenge myself. I would definitely recommend to apply for anyone who’s interested in front-end.",
+            "author": "David Thompson",
+            "title": "Sourcery for Testers Graduate"
+          },
+          {
+            "img": {
+              "src": "./assets/user-6.jpg",
+              "alt": "User image"
+            },
+            "content": "I really enjoyed working with the team using agile principles.",
+            "author": "Joseph Robinson",
+            "title": "Sourcery for Testers Graduate"
+          }
+        ]
+      }
+    },
+    "developers": {
+      "head-content": [
+        {
+          "title": "Sourcery for Developers",
+          "description": "Start your career in software development with the intense program at Sourcery for Developers. Complete the admission and enter our free of charge three-month academy, available in the Spring and Fall of each year. Students are invited to the Devbridge Group in Kaunas and Vilnius offices to attend lectures and create custom projects with the help of software development professionals.",
+          "og-url": "/developers",
+          "og-title": "Sourcery for Developers",
+          "og-img": "./assets/Developers-og-img.png"
+        }
+      ],
+      "apply-section": {
+        "content": "Entrance test results define a priority list of candidates. We accept 20 candidates with highest marks into academy.",
+        "img": {
+          "src": "../assets/apply-developers.svg",
+          "alt": "People high fiving each other in midair"
+        }
+      },
+      "admission-dates-section": {
+        "content": {
+          "first-row": "Entrance exam",
+          "second-row": "Academy duration",
+          "third-row": "Final exam"
+        },
+        "months": {
+          "first-row": "Oct",
+          "second-row": "Oct Dec",
+          "third-row": "Dec"
+        },
+        "days": {
+          "first-row": "2",
+          "second-row": "9 - 12",
+          "third-row": "16"
+        }
+      },
+      "schedule-section": {
+        "title": "Schedule",
+        "months": [
+          {
+            "title": "October / November",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Git & JS Fundamentals",
+                    "lecturer": "Paulius Sabeckis, Paulius Beneta",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Web basics",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "React fundamentals",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "React router & Redux",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Async & Testing for Developers",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "REST API fundamentals",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "November / December",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Spring framework",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Databases",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Authentication, Authorization",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Development best practices",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Final Exam",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Demo, Results and Rewards",
+                    "lecturer": "Paulius Sabeckis",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "9",
+                        "city": "Vilnius"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "10",
+                        "city": "Kaunas"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "steps-section": [
+        {
+          "number": "1",
+          "step-one": true,
+          "title": "Apply",
+          "content": "Academy students are given an opportunity to be immersed in a professional three-month course for the developer beginners, build their competence through trainings and individual or group assignments."
+        },
+        {
+          "number": "2",
+          "step-two": true,
+          "title": "Pass the admission",
+          "content": "Registration is available for candidates who are willing to pass the entry exam. Results define a list of candidates who are invited into the workshop. We accept 20 candidates with highest marks into the academy."
+        },
+        {
+          "number": "3",
+          "step-three": true,
+          "title": "Learn from the experts",
+          "content": "Students will learn the latest technologies and how to create software using the best tools on the market. Devbridge assigns a mentor to each student to serve as a resource for their development projects."
+        },
+        {
+          "number": "4",
+          "step-four": true,
+          "title": "Join the company",
+          "content": "At the end of term all students will receive recognition for completing the course and top students may receive job offers from Devbridge."
+        }
+      ]
+    },
+    "frontend": {
+      "head-content": [
+        {
+          "title": "Sourcery for Front-End",
+          "description": "Start your career in software development with the intense program at Sourcery for Front-End Developers. Complete the admission and enter our free of charge two-month academy this autumn to learn from our top specialists.",
+          "og-url": "/frontend",
+          "og-title": "Sourcery for Front-End",
+          "og-img": "./assets/Frontend-og-img.png"
+        }
+      ],
+      "admission-dates-section": {
+        "content": {
+          "first-row": "Entrance exam",
+          "second-row": "Academy duration",
+          "third-row": "Final exam"
+        },
+        "months": {
+          "first-row": "Sep Sep",
+          "second-row": "Oct Dec",
+          "third-row": "Jan"
+        },
+        "days": {
+          "first-row": "26 - 28",
+          "second-row": "30 - 18",
+          "third-row": "8"
+        }
+      },
+      "apply-section": {
+        "content": "Start your career in software development with the intense program at Sourcery for Front-End Developers.",
+        "img": {
+          "src": "../assets/apply-front-end.svg",
+          "alt": "People cheering with a mantle hat between them"
+        }
+      },
+      "schedule-section": {
+        "title": "Schedule",
+        "months": [
+          {
+            "title": "October / November / December",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Intro, Agile & Git",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "HTML Semantics & Accessibility basics",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "HTML Layouts",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Tips & tricks to build clean and functional CSS",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "BEM & SCSS basics",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "SCSS in depth",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "JS fundamentals Part 1",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "JS fundamentals Part 2",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "December / January",
+            "cards-columns": [
+              {
+                "cards": [
+                  {
+                    "heading": "Accessibility in depth",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Build tools",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "heading": "Final exam",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  },
+                  {
+                    "heading": "Demo Day, Results and Rewards",
+                    "lecturer": "Audrius Navickas",
+                    "time": "4:00 pm",
+                    "duration": "3 hours",
+                    "events": [
+                      {
+                        "month": "Oct",
+                        "day": "30",
+                        "city": "Kaunas"
+                      },
+                      {
+                        "month": "Oct",
+                        "day": "31",
+                        "city": "Vilnius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "steps-section": [
+        {
+          "number": "1",
+          "step-one": true,
+          "title": "Apply",
+          "content": "Academy students are given an opportunity to be immersed in a professional two-month course for the front-end developers, build their competence through trainings and individual or groups assignments."
+        },
+        {
+          "number": "2",
+          "step-two": true,
+          "title": "Pass the admission",
+          "content": "Entry test is performed by those candidates who submit their summary. Test results define a priority list of candidates who are invited into the workshop. We accept 20 candidates with highest marks into academy."
+        },
+        {
+          "number": "3",
+          "step-three": true,
+          "title": "Learn from the experts",
+          "content": "Students will discover all types, techniques and design approaches. They will learn how to write semantic elements in HTML, apply advanced CSS techniques, understand accessibility standards and many more."
+        },
+        {
+          "number": "4",
+          "step-four": true,
+          "title": "Join the company",
+          "content": "The Academy starts in the end of October and lasts until January. Top graduates will be invited for an interview to become a Junior Front-End Software Engineer."
+        }
+      ]
+    }
+  },
+  "academy-type": {
+    "title": "Academy type",
+    "academies": ["Developers", "Testers", "Frontend"]
+  },
+  "academy-intro": {
+    "frontend": {
+      "title": "Push the Pixels with Sourcery Academy for Front-End",
+      "content": "Start your career in software development with the intense program at Sourcery for Front-End. Complete the admission and enter our free of charge three-month academy to learn from our top specialists.",
+      "cta": {
+        "text": "Register",
+        "aria-label": "Go to registration page",
+        "href": "/register"
+      },
+      "img": {
+        "src": "./assets/intro-frontend-img.png",
+        "alt": "Students sitting in the lecture "
+      },
+      "video-btn": {
+        "aria-label": "Open video modal",
+        "video-id": "nizjia0by1"
+      }
+    },
+    "developers": {
+      "title": "Sourcery Academy for Developers",
+      "content": "Become a software development with our free of charge three-month academy, available this fall and spring. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius.",
+      "cta": {
+        "text": "Register",
+        "aria-label": "Go to registration page",
+        "href": "/register"
+      },
+      "img": {
+        "src": "./assets/intro-developers-img.png",
+        "alt": "Students sitting in the lecture "
+      },
+      "video-btn": {
+        "aria-label": "Open video modal",
+        "video-id": "cf74xki38t"
+      }
+    },
+    "testers": {
+      "title": "Set your inner tester free with Sourcery for Testers!",
+      "content": "Kick off your career in software testing with our free of charge three-month academy “Sourcery for Testers”, available this summer. Work with our top specialists as your mentors and lecturers in Kaunas and Vilnius.",
+      "cta": {
+        "text": "Register",
+        "aria-label": "Go to registration page",
+        "href": "/register"
+      },
+      "img": {
+        "src": "./assets/intro-testers-img.png",
+        "alt": "Students sitting in the lecture "
+      },
+      "video-btn": {
+        "aria-label": "Open video modal",
+        "video-id": "7fsltoz2sg"
+      }
+    }
+  },
+  "video-id": {
+    "frontend": "nizjia0by1",
+    "developers": "cf74xki38t",
+    "testers": "7fsltoz2sg"
+  },
+  "application-form": {
+    "title": "Sourcery Academy Application",
+    "subtitle": ["Academy information", "Personal information"],
+    "btn-text": "Register",
+    "img": {
+      "alt": "application form image ",
+      "src": "../assets/application-form-img.svg"
+    }
+  }
+}

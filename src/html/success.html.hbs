@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> partials/head.html head-content=success.head-content}}
+
+<body class="page-success">
+  {{> partials/skip-to-content.html}}
+  {{> partials/header.html nav-items=homepage.header.nav-items}}
+  <main id="content">
+    <div class="particle-wrapper">
+      <canvas></canvas>
+      <section class="success container">
+        <h1 class="success__heading section-heading">{{success.title}}</h1>
+        <div class="success__flex-container">
+          <div class="success__text-item">
+            <div class="success__icon-container">
+              <img class="success__icon" src="assets/check.svg" aria-hidden="true">
+            </div>
+            <h2 class="success__subheading section-subheading">{{success.subtitle}}</h2>
+            <p class="success__content text--semibold">{{success.content}}</p>
+          </div>
+          <div class="success__img-item">
+            <img class="success__img" src="assets/success.svg" aria-hidden="true">
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  {{> partials/footer.html}}
+</body>
+
+</html>

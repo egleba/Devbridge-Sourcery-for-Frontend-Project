@@ -1,0 +1,33 @@
+.in-progress {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  min-height: calc(100vh - #{$header-height-mobile} - 10.4rem);
+
+  @include tablet {
+    min-height: calc(100vh - #{$header-height} - 9.6rem);
+  }
+
+  @include desktop {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &__text {
+    padding-top: 4rem;
+    text-align: center;
+
+    @include desktop {
+      padding: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+
+    @include tablet {
+      width: auto;
+    }
+  }
+}

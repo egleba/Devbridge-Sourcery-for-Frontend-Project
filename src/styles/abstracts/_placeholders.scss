@@ -1,0 +1,22 @@
+%heading {
+  color: var(--color);
+  font-family: $heading-font-family;
+  margin: 0 0 $heading-mb 0;
+
+  @include desktop {
+    margin-bottom: $heading-mb--desktop;
+  }
+}
+
+%paragraph {
+  color: $color-main-text;
+  font-family: $base-font-family;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.69;
+
+  @include desktop {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+}

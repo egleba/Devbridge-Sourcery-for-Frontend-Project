@@ -1,0 +1,23 @@
+.skip-to-content {
+  height: 1px;
+  left: -1000px;
+  overflow: hidden;
+  position: absolute;
+  top: -1000px;
+  width: 1px;
+  z-index: map-get($z-index, skip-to-content);
+
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: var(--color-primary);
+    color: $color-white;
+    height: auto;
+    left: 0;
+    overflow: visible;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    top: 0;
+    width: auto;
+  }
+}

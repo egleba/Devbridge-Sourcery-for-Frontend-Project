@@ -1,0 +1,71 @@
+<header class="header">
+  <div class="container container--header">
+    <div class="header__content">
+      <a class="header__logo-link" title="{{homepage.header.title}}" href="{{homepage.header.link.href}}"
+        aria-label="{{homepage.header.link.aria-label}}">
+        <div class="header__logo-items">
+          <svg class="header__icon" width="40" height="40">
+            <use href='assets/header-icon.svg#header-icon'></use>
+          </svg>
+          <div class="header__logo-title">{{homepage.header.title}}</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <button aria-label="toggle menu" aria-expanded="false" type="button" class="burger js-menu-toggle">
+          <svg class="burger__icon" aria-hidden="true" focusable="false" fill="currentColor" viewBox="0 0 27 16"
+            version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <path class="burger__icon-bar"
+              d="M25.875,2.25 L1.125,2.25 C0.504363747,2.24835156 0.00164844498,1.74563625 0,1.125 C0.00164844498,0.504363747 0.504363747,0.00164844498 1.125,-1.77635684e-15 L25.875,-1.77635684e-15 C26.4956363,0.00164844498 26.9983516,0.504363747 27,1.125 C26.9983516,1.74563625 26.4956363,2.24835156 25.875,2.25 L25.875,2.25 Z">
+            </path>
+            <path class="burger__icon-bar"
+              d="M25.875,9 L1.125,9 C0.504363747,8.99835156 0.00164844498,8.49563625 0,7.875 C0.00164844498,7.25436375 0.504363747,6.75164844 1.125,6.75 L25.875,6.75 C26.4956363,6.75164844 26.9983516,7.25436375 27,7.875 C26.9983516,8.49563625 26.4956363,8.99835156 25.875,9 Z">
+            </path>
+            <path class="burger__icon-bar"
+              d="M25.875,15.75 L8.125,15.75 C7.50436375,15.7483516 7.00164844,15.2456363 7,14.625 C7.00164844,14.0043637 7.50436375,13.5016484 8.125,13.5 L25.875,13.5 C26.4956363,13.5016484 26.9983516,14.0043637 27,14.625 C26.9983516,15.2456363 26.4956363,15.7483516 25.875,15.75 Z">
+            </path>
+          </svg>
+        </button>
+        <ul class="nav__menu nav__menu-mobile">
+          <li class="nav__menu-item">
+            <a href="/" class="nav__menu-link">{{nav-items.nav-links.link-1}}</a>
+          </li>
+            <li class="nav__menu-item--dropdown">
+              <button type="button" class="nav__submenu-button js-submenu-toggle">
+                {{nav-items.nav-buttons.button-1}}
+                <svg class="nav__menu-icon" viewBox="3.4 0 9.09 9.09">
+                  <path d="M7.788 6.345L13.675.333a1.093 1.093 0 011.571 0 1.161 1.161 0 010 1.608l-6.67 6.811a1.1 1.1 0 01-1.534.033L.324 1.946a1.158 1.158 0 010-1.608 1.093 1.093 0 011.576 0z">
+                </svg>
+              </button>
+                    <ul class="nav__submenu">
+                      <li class="nav__submenu-item">
+                        <a href="/developers" class="nav__submenu-link">
+                        {{nav-items.submenu-links.link-1}}</a>
+                      </li>
+                      <li class="nav__submenu-item">
+                        <a href="/testers" class="nav__submenu-link">
+                        {{nav-items.submenu-links.link-2}}</a>
+                      </li>
+                      <li class="nav__submenu-item">
+                        <a href="/frontend" class="nav__submenu-link">
+                        {{nav-items.submenu-links.link-3}}</a>
+                      </li>
+                      <li class="nav__submenu-item">
+                        <a href="/kids" class="nav__submenu-link">
+                        {{nav-items.submenu-links.link-4}}</a>
+                      </li>
+                  </ul>
+            </li>
+          <li class="nav__menu-item">
+            <a href="/#media-section" id="media" class="nav__menu-link nav__media-link">{{nav-items.nav-links.link-2}}</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="/register" class="nav__menu-link">{{nav-items.nav-links.link-3}}</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="/questions" class="nav__menu-link">{{nav-items.nav-links.link-4}}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

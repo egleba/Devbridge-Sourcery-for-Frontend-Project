@@ -1,0 +1,21 @@
+.page-frontend {
+  --color: #{$color-fe-dark};
+  --color-primary: #{$color-fe-primary};
+  --color-secondary: #{$color-fe-dark};
+  --color-adm-illustration: #{$color-fe-primary};
+  --color-illustration: #{$color-fe-illustration};
+  --color-shape: #{$color-fe-shape};
+
+  .background--academy {
+
+    @include desktop {
+      &::before {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-2-frontend.svg');
+      }
+
+      &::after {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-frontend.svg');
+      }
+    }
+  }
+}

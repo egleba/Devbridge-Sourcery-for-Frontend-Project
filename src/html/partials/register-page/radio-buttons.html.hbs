@@ -1,0 +1,15 @@
+<section class="radio__component">
+    <p class="radio__text">{{ form-content.title }}<span class="radio__text--required">*</span></p>
+    <div class="radio__content">
+        {{#each form-content.options}}
+        <div class="radio__option" tabindex="{{ tabindex }}">
+            <label class="radio__label" for="{{ option-id }}">{{ title }}
+                <input class="radio__input" type="radio" name="{{ ../form-content.title }}" value="{{ title }}"
+                    id="{{ option-id }}" />
+                <div class="radio__circle"></div>
+            </label>
+        </div>
+        {{/each}}
+    </div>
+    <span class="radio__error-text">Please select the city</span>
+</section>

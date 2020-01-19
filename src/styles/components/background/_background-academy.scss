@@ -1,0 +1,67 @@
+.background-academy {
+  display: none;
+
+  @include desktop {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: map-get($z-index, background);
+  }
+
+  &__wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(#{$width--primary} + (2 * #{$tablet-padding-sides}));
+  }
+
+  &__wrapper-right {
+    margin-left: $width--primary / 1.7;
+    position: relative;
+  }
+
+  &__wave-right-2 {
+    margin-left: 67px;
+    margin-top: -89px;
+  }
+}
+
+.background-wrapper--academy {
+  &::before {
+    width: calc(50vw - 88px);
+  }
+
+  &::after {
+    width: calc(50vw + 80px);
+  }
+}
+
+.background--academy {
+
+  @include desktop {
+    &::before {
+      background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-2-testers.svg');
+      top: -1400px;
+      width: 500px;
+    }
+
+    &::after {
+      background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-testers.svg');
+      right: -244px;
+      top: 2668px;
+      width: 500px;
+    }
+  }
+
+  //remove homepage wave from media section in academy pages
+  .media__container {
+    @include desktop {
+      padding-top: 20rem;
+
+      &::before {
+        background-image: none;
+        content: '';
+      }
+    }
+  }
+}

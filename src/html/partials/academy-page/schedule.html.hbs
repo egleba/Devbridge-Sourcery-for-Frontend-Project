@@ -1,0 +1,76 @@
+<section class="schedule container--narrow" role="region" aria-labelledby="schedule-region">
+    <h2 class="schedule__heading section-heading" id="schedule-region">{{page.schedule-section.title}}</h2>
+    <div class="glide">
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"
+                aria-label="Scroll month cards to the left">
+                <div class="schedule__own-arrow" alt="Arrow left" aria-hidden="true">
+                    {{> ../icons/schedule-icons/arrow-left.html}}
+                </div>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"
+                aria-label="Scroll month cards to the right">
+                <div class="schedule__own-arrow" alt="Arrow right" aria-hidden="true">
+                    {{> ../icons/schedule-icons/arrow-right.html}}
+                </div>
+            </button>
+        </div>
+
+        <div class="glide__track schedule__track-div" data-glide-el="track">
+            <ul class="schedule__months-container">
+                {{#each page.schedule-section.months}}
+                <li class="schedule__month">
+                    <h3 class="schedule__subheading section-subheading">{{title}}</h3>
+                    <div class="schedule__columns-container">
+                        {{#each cards-columns}}
+                        <div class="schedule__cards-column">
+                            {{#each cards}}
+                            <div class="schedule__card" aria-expanded="false">
+                                <div class="card__top">
+                                    <div class="card__top--upper">
+                                        <h4 class="card__heading text--large">{{heading}}</h4>
+                                        <img src="./assets/arrow.svg" class="card__arrow"
+                                            aria-label="Toggle area expansion" tabindex="0">
+                                    </div>
+                                    <div class="card__top--lower">
+                                        <div class="card__lecturer-container">
+                                            <img src="./assets/user.svg" class="card__lecturer-svg" alt=""
+                                                aria-hidden="true">
+                                            <p class="text--small">{{lecturer}}</p>
+                                        </div>
+                                        <div class="card__time-container">
+                                            <img src="./assets/clock.svg" class="card__clock-svg" alt=""
+                                                aria-hidden="true">
+                                            <time class="card__time text--small">{{time}}</time>
+                                            <div class="card__line card__line--small" aria-hidden="true"></div>
+                                            <p class="card__duration text--small">{{duration}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__bottom">
+                                    {{#each events}}
+                                    <div class="card__event-container">
+                                        <div class="card__date-container">
+                                            <time class="card__month text--small">{{month}}</time>
+                                            <time class="card__day text--large">{{day}}</time>
+                                        </div>
+                                        <div class="card__line card__line--large" aria-hidden="true"></div>
+                                        <div class="card__location-svg" aria-hidden="true">
+                                            {{> ../icons/schedule-icons/location.html}}
+                                        </div>
+                                        <p class="card__city text--large">{{city}}</p>
+                                    </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                        {{/each}}
+                    </div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+    </div>
+</section>

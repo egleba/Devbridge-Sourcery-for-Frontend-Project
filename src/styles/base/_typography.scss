@@ -1,0 +1,136 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @extend %paragraph;
+}
+
+header,
+footer {
+  color: var(--color-nav);
+}
+
+.section-heading {
+  @extend %heading;
+
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.56;
+
+  @include desktop {
+    font-size: 4.8rem;
+    line-height: 1.17;
+  }
+}
+
+.section-subheading {
+  @extend %heading;
+
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.46;
+
+  @include desktop {
+    font-size: 3.2rem;
+    line-height: 1.31;
+  }
+}
+
+.text {
+  @extend %paragraph;
+
+  &--semibold {
+    font-weight: 600;
+    line-height: 1.44;
+  }
+
+  &--small {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  &--large {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  &--testimonials-name {
+    color: var(--color);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.78;
+
+    @include desktop {
+      font-size: 2rem;
+      line-height: 1.6;
+    }
+  }
+
+  &--testimonials-quotes {
+    @extend %heading;
+
+    font-size: 3.8rem;
+    line-height: 1.24;
+  }
+
+  &--required {
+    color: $color-main-error;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &--required-field {
+    color: $color-main-error;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  &--error-message {
+    color: $color-fe-dark;
+    font-size: 1.2rem;
+    line-height: 1.75;
+  }
+
+  // color modifiers
+  &--color {
+    color: var(--color);
+  }
+
+  &--color-white {
+    color: var(--color-white);
+  }
+
+  &--color-black {
+    color: var(--color-black);
+  }
+
+  &--color-hover {
+    color: var(--color-hover);
+  }
+
+  &--color-nav {
+    color: var(--color-nav);
+  }
+
+  // form color modifiers
+  &--color-placeholder {
+    color: var(--color-placeholder);
+  }
+
+  &--color-disabled {
+    color: var(--color-disabled);
+  }
+
+  &--color-label {
+    color: var(--color-label);
+  }
+
+  &--color-label-blue {
+    color: var(--color-label-blue);
+  }
+
+  &--color-label-error {
+    color: var(--color-label-error);
+  }
+}

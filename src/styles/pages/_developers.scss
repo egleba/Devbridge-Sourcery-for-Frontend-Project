@@ -1,0 +1,21 @@
+.page-developers {
+  --color: #{$color-devs-dark};
+  --color-primary: #{$color-devs-primary};
+  --color-secondary: #{$color-devs-dark};
+  --color-adm-illustration: #{$color-devs-illustration};
+  --color-illustration: #{$color-devs-illustration};
+  --color-shape: #{$color-devs-shape};
+
+  .background--academy {
+
+    @include desktop {
+      &::before {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-2-developers.svg');
+      }
+
+      &::after {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-developers.svg');
+      }
+    }
+  }
+}

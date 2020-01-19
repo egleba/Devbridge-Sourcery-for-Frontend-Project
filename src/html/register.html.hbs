@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> partials/head.html head-content=register.head-content}}
+
+<body>
+  {{> partials/skip-to-content.html}}
+  {{> partials/header.html nav-items=homepage.header.nav-items}}
+  <main id="content">
+    <div class="particle-wrapper">
+      <canvas></canvas>
+      <section class="application-form container">
+        <div class="application-form__image-wrapper">
+          <img class="application-form__image" src="{{ application-form.img.src }}"
+            alt="{{ application-form.img.alt }}">
+        </div>
+
+        <div class="application-form__content">
+          <h1 class="application-form__heading section-heading">{{ application-form.title }}</h1>
+          <p class="application-form__text text--small">Required</p>
+
+          <form action="" name="" class="application-form__form">
+            <h2 class="application-form__subheading section-subheading">{{ application-form.subtitle.[0] }}</h2>
+            {{> partials/register-page/academy-type-selection.html}}
+            {{> partials/register-page/radio-buttons.html form-content=register.academy-city-options}}
+            <h2 class="application-form__subheading section-subheading">{{ application-form.subtitle.[1] }}</h2>
+            {{> partials/register-page/text-input-component.html form-content=register.personal-information-form}}
+            {{> partials/register-page/file-input.html fileinput-component=register.fileinput-component}}
+            {{> partials/register-page/checkbox.html checkbox-component=register.checkbox-component}}
+            <button class="application-form__button btn" disabled>{{ application-form.btn-text }}</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  {{> partials/footer.html}}
+</body>
+
+</html>

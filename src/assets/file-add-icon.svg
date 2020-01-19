@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20.346" viewBox="0 0 22 20.346">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#5c5c5c;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Icon_feather-upload" data-name="Icon feather-upload" transform="translate(-3.5 -5.154)">
+        <path id="Path_1926" d="M24.5 22.5v4.96a2.362 2.362 0 0 1-2.222 2.48H6.722A2.362 2.362 0 0 1 4.5 27.46V22.5" class="cls-1" data-name="Path 1926" transform="translate(0 -5.44)"/>
+        <path id="Path_1927" d="M20.5 10.346l-5-5.846-5 5.846" class="cls-1" data-name="Path 1927" transform="translate(-1 1.654)"/>
+        <path id="Path_1928" d="M18 4.5v12.56" class="cls-1" data-name="Path 1928" transform="translate(-3.5 2)"/>
+    </g>
+</svg>

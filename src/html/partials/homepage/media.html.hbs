@@ -1,0 +1,34 @@
+<section id="media-section" class="media media__container container">
+    <div class="media__content">
+        <h2 class="media__heading section-heading">{{homepage.media-section.title}}</h2>
+        <div class="media__grid">
+            <div class="media__item">
+                <img class="media__image" alt="{{homepage.media-section.items.[0].img.alt}}"
+                    src="{{homepage.media-section.items.[0].img.src}}">
+            </div>
+            <div class="media__item">
+                <img class="media__image" alt="{{homepage.media-section.items.[1].img.alt}}"
+                    src="{{homepage.media-section.items.[1].img.src}}">
+            </div>
+            <div class="media__item">
+                <img class="media__image" alt="{{homepage.media-section.items.[2].img.alt}}"
+                    src="{{homepage.media-section.items.[2].img.src}}">
+            </div>
+            <div class="media__item">
+                <img class="media__image" alt="{{homepage.media-section.items.[3].img.alt}}"
+                    src="{{homepage.media-section.items.[3].img.src}}">
+            </div>
+            <div class="media__item">
+                <img class="media__image" alt="{{homepage.media-section.items.[4].img.alt}}"
+                    src="{{homepage.media-section.items.[4].img.src}}">
+            </div>
+            <div class="media__item" data-id1="{{ video-id }}">
+                <img class="media__image" alt="{{homepage.media-section.items.[5].img.alt}}"
+                    src="{{homepage.media-section.items.[5].img.src}}">
+                <button class="media__button" type="button" aria-hidden="true">
+                    {{> ../icons/play-icon.html.hbs }}
+                </button>
+            </div>
+        </div>
+    </div>
+</section>

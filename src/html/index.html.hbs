@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> partials/head.html head-content=homepage.head-content}}
+
+<body>
+  {{> partials/skip-to-content.html}}
+  {{> partials/header.html nav-items=homepage.header.nav-items}}
+  <main id="content">
+    <div class="background-wrapper">
+      <div class="background">
+        {{> partials/homepage/intro-section.html}}
+        <div class="particle-wrapper">
+          <canvas></canvas>
+          {{> partials/homepage/academies.html}}
+          {{> partials/homepage/academies-list.html}}
+          {{> partials/homepage/testimonials.html}}
+          {{> partials/homepage/media.html video-id=video-id.frontend}}
+        </div>
+      </div>
+    </div>
+  </main>
+  {{> partials/footer.html}}
+  {{> partials/video.html video-id=video-id.frontend}}
+</body>
+
+</html>

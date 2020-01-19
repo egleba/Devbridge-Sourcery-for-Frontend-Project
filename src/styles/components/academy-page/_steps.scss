@@ -1,0 +1,151 @@
+.steps {
+  padding-bottom: $section-padding-mobile;
+  padding-top: $section-padding-mobile;
+
+  &__list {
+    counter-reset: step-counter;
+    list-style: none;
+  }
+
+  &__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7rem;
+  }
+
+  &__item-number {
+    border: 2px solid var(--color);
+    border-radius: 50%;
+    display: block;
+    height: 16rem;
+    width: 16rem;
+    z-index: map-get($z-index, default);
+
+    &::before {
+      @extend %heading;
+
+      background-color: $color-white;
+      border-right: 5px solid $color-white;
+      content: counter(step-counter);
+      counter-increment: step-counter;
+      font-size: 4.8rem;
+      font-weight: bold;
+      line-height: 1.17;
+    }
+  }
+
+  &__item-content {
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  &__item-illustration-1 {
+    margin-left: -.3rem;
+    margin-top: -6rem;
+  }
+
+  &__item-illustration-2 {
+    margin-left: 1.5rem;
+    margin-top: -5rem;
+  }
+
+  &__item-illustration-3 {
+    margin-left: 2rem;
+    margin-top: -6.3rem;
+  }
+
+  &__item-illustration-4 {
+    margin-left: -2rem;
+    margin-top: -5rem;
+  }
+
+  @include desktop {
+    align-items: center;
+    display: flex;
+    height: 950px;
+    padding-bottom: 0;
+    padding-top: 0;
+
+    &__list {
+      display: grid;
+      grid-column-gap: 8rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__item {
+      display: grid;
+      grid-gap: 1rem;
+      padding: 0 0 2rem;
+      text-align: left;
+
+      &:nth-of-type(even) {
+        .steps__item-number {
+          grid-area: 1 / 1;
+        }
+
+        .steps__item-text {
+          margin-left: auto;
+        }
+
+        .steps__item-content {
+          grid-area: 1 / 2;
+          text-align: right;
+        }
+      }
+
+      &:nth-of-type(3) {
+        margin-top: -10rem;
+      }
+
+      &:nth-of-type(2) {
+        margin-top: 10rem;
+      }
+    }
+
+    &__item-number {
+      grid-area: 1 / 2;
+      margin-bottom: auto;
+    }
+
+    &__item-content {
+      grid-area: 1 / 1;
+      margin-bottom: auto;
+      text-align: left;
+    }
+
+    &__item-heading {
+      position: relative;
+
+      &::after {
+        background: var(--color);
+        bottom: - 1.6rem;
+        content: '';
+        display: block;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+      }
+    }
+
+    .steps__item-text {
+      max-width: 95%;
+    }
+  }
+}
+
+// illustrations' color differences across pages
+.page-frontend {
+  .cls1-7 {
+    fill: var(--color);
+  }
+}
+
+.page-developers {
+  .cls1-2,
+  .cls2-5,
+  .cls3-1,
+  .cls4-1 {
+    fill: var(--color);
+  }
+}

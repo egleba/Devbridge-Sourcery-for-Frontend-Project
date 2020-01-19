@@ -1,0 +1,195 @@
+.radio {
+  $_this: &;
+
+  &__component {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      width: 20rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__circle {
+    border: .2rem solid var(--color-black);
+    border-radius: 50%;
+    display: inline-block;
+    height: 2rem;
+    margin-right: 3.2rem;
+    position: relative;
+    width: 2rem;
+  }
+
+  &__option {
+    display: flex;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    &:focus-within {
+      outline: none;
+    }
+  }
+
+  &--hovered {
+    @include mouse {
+      #{$_this}__circle::before {
+        background-color: $color-form-checkbox--hover;
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: 4.2rem;
+        margin-left: -1.3rem;
+        margin-top: -1.3rem;
+        position: absolute;
+        width: 4.2rem;
+        z-index: -1;
+      }
+    }
+  }
+
+  &--checked-hovered {
+    @include mouse {
+      #{$_this}__circle::before {
+        background-color: #f0efff;
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: 4.2rem;
+        margin-left: -1.3rem;
+        margin-top: -1.3rem;
+        position: absolute;
+        width: 4.2rem;
+        z-index: -1;
+      }
+    }
+  }
+
+  &--focused {
+    @include mouse {
+      #{$_this}__circle::before {
+        background-color: $color-form-checkbox--focus;
+        border-radius: 50%;
+        content: '';
+        display: inline-block;
+        height: 4.2rem;
+        margin-left: -2.1rem;
+        margin-top: -1.3rem;
+        position: absolute;
+        width: 4.2rem;
+        z-index: -1;
+
+        @include desktop {
+          margin-left: -1.3rem;
+        }
+      }
+    }
+  }
+
+  &--checked-focused {
+    @include mouse {
+      #{$_this}__circle::before {
+        background-color: #e8e6ff;
+        border-radius: 50%;
+        content: '';
+        display: inline-block;
+        height: 4.2rem;
+        margin-left: -2.1rem;
+        margin-top: -1.3rem;
+        position: absolute;
+        width: 4.2rem;
+        z-index: -1;
+
+        @include desktop {
+          margin-left: -1.3rem;
+        }
+      }
+    }
+  }
+
+  &__label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 600;
+    justify-content: space-between;
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__input:checked {
+    + #{$_this}__circle {
+      border: .2rem solid var(--color-primary);
+    }
+
+    + #{$_this}__circle::after {
+      background-color: var(--color-primary);
+      border-radius: 50%;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1rem;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 1rem;
+    }
+  }
+
+  &__input:disabled {
+    + #{$_this}__circle {
+      border: .2rem solid $color-form-disabled;
+    }
+
+    + #{$_this}__circle::after {
+      background-color: $color-form-disabled;
+      border-radius: 50%;
+      bottom: 0;
+      content: '';
+      height: 1rem;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 1rem;
+    }
+  }
+
+  &__text {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    text-align: center;
+
+    @include tablet {
+      text-align: left;
+    }
+  }
+
+  &__text--required {
+    color: $color-main-error;
+    font-size: 2rem;
+  }
+
+  &__error-text {
+    color: $color-main-error;
+    font-size: 1.2rem;
+    height: 1.4rem;
+    opacity: 0;
+    padding-left: 1.6rem;
+    transition: opacity .3s .5s;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

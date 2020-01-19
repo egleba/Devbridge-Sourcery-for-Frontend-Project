@@ -1,0 +1,62 @@
+/* eslint-disable */
+@charset 'utf-8';
+
+// vendors
+@import 'vendors/normalize';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+
+// abstracts
+@import 'abstracts/colors';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+@import 'abstracts/z-index';
+
+// base
+@import 'base/global';
+@import 'base/typography';
+
+// layout
+@import 'layout/layout';
+@import 'layout/header';
+@import 'layout/footer';
+
+// pages
+@import 'pages/testers';
+@import 'pages/developers';
+@import 'pages/frontend';
+@import 'pages/register';
+@import 'pages/success';
+
+// components
+@import 'components/background/background';
+@import 'components/background/background-academy';
+@import 'components/logo';
+@import 'components/burger';
+@import 'components/social-media';
+@import 'components/skip-to-content';
+@import 'components/video';
+@import 'components/close-button';
+@import 'components/in-progress';
+@import 'components/buttons/buttons';
+@import 'components/homepage/intro-section';
+@import 'components/homepage/academies';
+@import 'components/homepage/academies-list';
+@import 'components/homepage/testimonials';
+@import 'components/homepage/media';
+@import 'components/academy-page/academy-intro';
+@import 'components/academy-page/steps';
+@import 'components/academy-page/admission';
+@import 'components/academy-page/apply-to-academy';
+@import 'components/academy-page/admission-dates';
+@import 'components/academy-page/schedule';
+@import 'components/academy-page/schedule-card';
+@import 'components/academy-page/testers-testimonials';
+@import 'components/register-page/fileinput';
+@import 'components/register-page/academy-type-selection';
+@import 'components/register-page/radio-buttons';
+@import 'components/register-page/checkbox';
+@import 'components/register-page/text-input-component';
+
+/* eslint-enable */

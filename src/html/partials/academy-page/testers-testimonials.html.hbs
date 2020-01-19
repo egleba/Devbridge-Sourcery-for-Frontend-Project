@@ -1,0 +1,28 @@
+<div class="container testimonials__container">
+    <h2 class="testimonials__heading section-heading">{{academies.testers.testimonials.title}}</h2>
+    <div class="testimonials__content glide">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                {{#each academies.testers.testimonials.content-boxes}}
+                <li class="glide__slide">
+                    <figure class="testimonials__content-box">
+                        <div class="testimonials__image">
+                            <img src="{{this.img.src}}" alt="{{this.img.alt}}" class="testimonials__user-picture"
+                                aria-hidden="true">
+                        </div>
+                        <div class="testimonials__text-box">
+                            <p class="testimonials__comment text--small">{{this.content}}</p>
+                            <p class="testimonials__user-name text--testimonials-name">{{this.author}}</p>
+                            <p class="testimonials__title text--small text--color">{{this.title}}</p>
+                        </div>
+                    </figure>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left testers__arrow prev" data-glide-dir="<">{{> ../icons/schedule-icons/arrow-left.html}}</button>
+            <button class="glide__arrow glide__arrow--right testers__arrow next" data-glide-dir=">">{{> ../icons/schedule-icons/arrow-right.html}}</button>
+        </div>
+    </div>
+</div>

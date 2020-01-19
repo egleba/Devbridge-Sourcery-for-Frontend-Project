@@ -1,0 +1,30 @@
+.testers__arrow {
+  border: 0;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.testers__arrow > svg {
+  width: 3rem;
+}
+
+.glide__slide {
+  display: flex;
+  justify-content: center;
+}
+
+.glide__arrow--left {
+  left: -2rem;
+
+  @include desktop {
+    left: -6rem;
+  }
+}
+
+.glide__arrow--right {
+  right: -2rem;
+
+  @include desktop {
+    right: -6rem;
+  }
+}

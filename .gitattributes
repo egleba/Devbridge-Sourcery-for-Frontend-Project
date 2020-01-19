@@ -1,0 +1,15 @@
+*.pbxproj -text
+* text eol=lf
+
+# command file for windows
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# images
+*.png binary
+*.jpg binary
+*.bmp binary
+*.gif binary
+
+# images
+*.ttf binary

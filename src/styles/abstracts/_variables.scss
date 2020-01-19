@@ -1,0 +1,31 @@
+// Media query variables
+$desktop-min-width: 1200px;
+$tablet-min-width: 600px;
+
+:root {
+  --desktop-min-width: #{$desktop-min-width};
+  --tablet-min-width: #{$tablet-min-width};
+}
+
+// Layout variables
+$tablet-padding-sides: 4rem;
+$mobile-padding-sides: 2rem;
+$mobile-nav-padding: 4rem;
+$width--primary: 1280px;
+$width--secondary: 1360px;
+$width--tertiary: 1184px;
+$heading-mb--desktop: 3.5rem;
+$heading-mb: 2rem;
+$paragraph-mb--desktop: 5rem;
+$paragraph-mb: 2.5rem;
+$line-top: 1.5rem;
+$line-bottom: 2.5rem;
+$header-height-mobile: 7.2rem;
+$header-height: 9.6rem;
+$section-padding-mobile: 6rem;
+
+// Other variables
+$base-line-height: 1.5;
+$base-font-size: 1.6rem;
+$base-font-family: 'Raleway', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;

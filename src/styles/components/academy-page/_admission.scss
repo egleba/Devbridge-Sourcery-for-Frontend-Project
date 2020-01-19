@@ -1,0 +1,88 @@
+// stylelint-disable
+.admission {
+  padding-bottom: $section-padding-mobile;
+  padding-top: $section-padding-mobile;
+  text-align: center;
+
+  @include desktop {
+    padding-bottom: 10rem;
+    padding-top: 20rem;
+  }
+
+  &__main-content {
+    h2 {
+      @extend .section-heading;
+    }
+
+    h3 {
+      @extend .section-subheading;
+    }
+
+    p {
+      margin-bottom: 4rem;
+    }
+
+    @include desktop {
+      max-width: 55.2rem;
+    }
+
+    ul {
+      margin-bottom: 4rem;
+
+      div {
+        align-items: center;
+        display: flex;
+
+        svg {
+          fill: var(--color);
+          height: 1rem;
+          margin-right: 1.6rem;
+          min-width: 1rem;
+          width: 1rem;
+        }
+
+        li {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  &__additional-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include desktop {
+      padding-top: 2rem;
+    }
+  }
+
+  &__illustration-container {
+    display: inline-block;
+    margin-top: 3rem;
+    width: 100%;
+
+    @include tablet {
+      margin-top: 7rem;
+    }
+
+    @include desktop {
+      align-self: flex-end;
+      margin-top: 17rem;
+      width: 51.42rem;
+    }
+  }
+
+  &__illustration {
+    width: 100%;
+  }
+
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+// stylelint-enable

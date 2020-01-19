@@ -1,0 +1,87 @@
+.application-form {
+  text-align: center;
+
+  &__heading {
+    margin-bottom: 0;
+    margin-top: 5rem;
+
+    @include desktop {
+      margin-top: 7rem;
+    }
+  }
+
+  &__subheading {
+    margin-top: 6rem;
+  }
+
+  &__text {
+    margin-bottom: 4rem;
+
+    &::before {
+      color: #ff2672;
+      content: '*';
+      font-weight: bold;
+    }
+
+    @include desktop {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__wrapper {
+    @include desktop {
+      display: flex;
+    }
+  }
+
+  &__content {
+    @include tablet {
+      margin: 0 auto;
+      text-align: center;
+      width: 52rem;
+    }
+
+    @include desktop {
+      margin: 0;
+      padding-right: 8.5rem;
+      text-align: left;
+      width: auto;
+    }
+  }
+
+  &__button {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+
+    @include tablet {
+      margin-bottom: 7.5rem;
+    }
+  }
+
+  &__image-wrapper {
+    display: inline-block;
+    margin-top: 5rem;
+    width: 35%;
+
+    @include tablet {
+      width: 30%;
+    }
+
+    @include desktop {
+      bottom: 24rem;
+      margin-bottom: 0;
+      position: absolute;
+      right: 7rem;
+      width: 63.8rem;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  @include desktop {
+    position: relative;
+    text-align: left;
+  }
+}

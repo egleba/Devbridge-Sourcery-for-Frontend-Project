@@ -1,0 +1,21 @@
+.page-testers {
+  --color: #{$color-testers-dark};
+  --color-primary: #{$color-testers-primary};
+  --color-secondary: #{$color-testers-dark};
+  --color-adm-illustration: #{$color-testers-illustration};
+  --color-illustration: #{$color-testers-illustration};
+  --color-shape: #{$color-testers-shape};
+
+  .background--academy {
+
+    @include desktop {
+      &::before {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-2-testers.svg');
+      }
+
+      &::after {
+        background-image: url('./../html/partials/icons/background-shapes/background-shape-seamless-testers.svg');
+      }
+    }
+  }
+}

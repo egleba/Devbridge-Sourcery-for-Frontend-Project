@@ -1,0 +1,66 @@
+// Media query mixins
+
+@mixin tablet {
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+/* smartphones, touchscreens */
+@mixin touchscreen {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+/* mouse */
+@mixin mouse {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}
+
+// Media query mixins
+
+@mixin tablet {
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+/* smartphones, touchscreens */
+@mixin touchscreen {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+/* mouse */
+@mixin mouse {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}
+
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}

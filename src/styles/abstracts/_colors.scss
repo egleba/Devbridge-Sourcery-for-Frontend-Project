@@ -1,0 +1,59 @@
+// Main
+$color-white: #fff;
+$color-main-surface: #f6f5f7;
+$color-main-error: #ff0753;
+$color-main-text: #3e3c4e;
+$color-main-primary: #584dfc;
+$color-main-dark: #3d3691;
+
+// Testers
+$color-testers-primary: #009b84;
+$color-testers-dark: #0b555f;
+$color-testers-shape: #e3fff6;
+$color-testers-illustration: #1ce5af;
+
+// Developers
+$color-devs-primary: #4d8af0;
+$color-devs-dark: #0048c1;
+$color-devs-shape: #f0f6ff;
+$color-devs-illustration: #17bce3;
+
+// Front-End
+$color-fe-primary: #ed1d55;
+$color-fe-dark: #b40031;
+$color-fe-shape: #fff4f6;
+$color-fe-illustration: #f22b70;
+
+// Form
+$color-form-border: #5c5c5c;
+$color-form-placeholder: #868686;
+$color-form-disabled: #d4d4d4;
+$color-form-checkbox--focus: #ededed;
+$color-form-checkbox--hover: #f6f6f6;
+$color-form-asterisk: #ff2672;
+$color-form-btn-hover-focus: #443bc4;
+
+// Other
+$color-black: #000;
+$color-icon-bg: #ecebfb;
+
+:root {
+  --color: #{$color-main-dark};
+  --color-white: #{$color-white};
+  --color-black: #{$color-main-text};
+  --color-nav: #{$color-main-dark};
+  --color-hover: #{$color-main-primary};
+  --color-placeholder: #{$color-form-placeholder};
+  --color-disabled: #{$color-form-disabled};
+  --color-label: #{$color-form-border};
+  --color-label-blue: #{$color-main-primary};
+  --color-label-error: #{$color-fe-dark};
+  --color-primary: #{$color-main-primary};
+  --color-secondary: #{$color-main-dark};
+  --color-shape: #{$color-main-surface};
+  // particle colors
+  --color-particle-orange: #f55f44;
+  --color-particle-green: #47e6b1;
+  --color-particle-blue: #{$color-devs-primary};
+  --color-particle-grey: #dbdbdb;
+}

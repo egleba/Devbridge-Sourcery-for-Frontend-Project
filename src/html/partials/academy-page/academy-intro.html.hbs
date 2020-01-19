@@ -1,0 +1,15 @@
+<section class="academy-intro container">
+  <div class="academy-intro__content">
+    <h1 class="academy-intro__heading section-heading">{{ page-content.title }}</h1>
+    <p class="academy-intro__text">{{ page-content.content }}</p>
+    <a href="{{ page-content.cta.href }}" class="academy-intro__btn btn"
+      aria-label="{{ page-content.cta.aria-label }}">{{ page-content.cta.text }}</a>
+  </div>
+  <div class="academy-intro__image-wrapper">
+    <img class="academy-intro__image" src="{{ page-content.img.src }}" alt="{{ page-content.img.alt }}">
+    <button class="academy-intro__video-btn" type="button" aria-label="{{ page-content.video-btn.aria-label}}"
+      data-id="{{ page-content.video-btn.video-id}}">
+      {{> ../icons/play-icon.html.hbs }}
+    </button>
+  </div>
+</section>

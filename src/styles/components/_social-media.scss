@@ -1,0 +1,36 @@
+.social-media {
+  $_this: &;
+
+  display: flex;
+
+  &__link {
+    align-items: center;
+    background-color: $color-icon-bg;
+    border-radius: 2rem;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    margin: 0 .8rem 1.6rem;
+    width: 4rem;
+
+    &:hover {
+      #{$_this}__icon {
+        fill: $color-main-dark;
+        transition: ease-in-out .3s;
+      }
+
+      #{$_this}__icon--stroke {
+        color: $color-icon-bg;
+      }
+    }
+
+    @include tablet {
+      margin: 0 1.6rem 0 0;
+    }
+  }
+
+  &__icon {
+    color: $color-main-dark;
+    fill: $color-icon-bg;
+  }
+}

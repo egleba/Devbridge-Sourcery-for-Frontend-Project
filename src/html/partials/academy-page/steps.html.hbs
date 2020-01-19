@@ -1,0 +1,29 @@
+<section class="steps container container--narrow">
+  <div class="steps__content">
+    <ol class="steps__list">
+
+      {{#each steps-section}}
+      <li class="steps__item">
+        <div class="steps__item-number">
+          <div class="steps__item-illustration-{{number}}">
+            {{#if step-one}}
+            {{> ../icons/steps-illustration-1.html}}
+            {{else if step-two}}
+            {{> ../icons/steps-illustration-2.html}}
+            {{else if step-three}}
+            {{> ../icons/steps-illustration-3.html}}
+            {{else if step-four}}
+            {{> ../icons/steps-illustration-4.html}}
+            {{/if}}
+          </div>
+        </div>
+        <div class="steps__item-content">
+          <h2 class="steps__item-heading section-subheading">{{ title }}</h2>
+          <p class="steps__item-text">{{ content }}</p>
+        </div>
+      </li>
+      {{/each}}
+
+    </ol>
+  </div>
+</section>

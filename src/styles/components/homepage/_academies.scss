@@ -1,0 +1,50 @@
+.academies {
+  padding-bottom: $section-padding-mobile;
+  padding-top: $section-padding-mobile;
+
+  @include desktop {
+    @include full-height;
+
+    padding: 20% 0 10%;
+  }
+
+  &__heading,
+  &__text {
+    text-align: center;
+  }
+
+  &__heading {
+    margin-bottom: $heading-mb;
+
+    @include desktop {
+      margin-bottom: $heading-mb--desktop;
+    }
+  }
+
+  &__text {
+    margin: 0 auto;
+    max-width: 994px;
+    width: 100%;
+
+    @include desktop {
+      width: 69vw;
+    }
+  }
+
+  &__line {
+    background-color: $color-main-dark;
+    height: 48px;
+    margin: 3.2rem auto;
+    width: 2px;
+  }
+
+  &__arrow-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__arrow-link {
+    cursor: pointer;
+    display: flex;
+  }
+}

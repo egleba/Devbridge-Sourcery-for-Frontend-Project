@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> partials/head.html head-content=academies.frontend.head-content}}
+
+<body class="page-frontend">
+  {{> partials/skip-to-content.html}}
+  {{> partials/header.html nav-items=homepage.header.nav-items}}
+  <main id="content">
+    <div class="background-wrapper background-wrapper--academy">
+      {{> partials/background/background-academy.html page-content=academy-intro.frontend}}
+      <div class="background background--academy">
+        {{> partials/academy-page/academy-intro.html page-content=academy-intro.frontend }}
+        <div class="particle-wrapper">
+          <canvas></canvas>
+          {{> partials/academy-page/steps.html steps-section=academies.frontend.steps-section }}
+          {{> partials/academy-page/admission-section.html link=academies.frontend.admission-dates-section page="frontend"}}
+          {{> partials/academy-page/schedule.html page=academies.frontend}}
+          {{> partials/homepage/testimonials.html}}
+          {{> partials/homepage/media.html video-id=video-id.frontend}}
+          {{> partials/academy-page/apply-to-academy.html apply-section=academies.frontend.apply-section}}
+        </div>
+      </div>
+    </div>
+  </main>
+  {{> partials/footer.html}}
+  {{> partials/video.html video-id=video-id.frontend}}
+</body>
+
+</html>

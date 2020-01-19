@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:#ff0753}
+        </style>
+    </defs>
+    <path id="Icon_material-error" d="M15 3a12 12 0 1 0 12 12A12 12 0 0 0 15 3zm1.2 18h-2.4v-2.4h2.4zm0-4.8h-2.4V9h2.4z" class="cls-1" data-name="Icon material-error" transform="translate(-3 -3)"/>
+</svg>

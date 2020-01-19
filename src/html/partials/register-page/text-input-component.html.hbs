@@ -1,0 +1,28 @@
+<section class="form">
+    <div class="form__content">
+        <span class="form__error-text">First name is required</span>
+        <input type="text" class="form__input js-form__input" id="firstname" name="FirstName"
+            placeholder="{{ form-content.firstname.title }}" aria-label="{{ form-content.firstname.aria-label }}">
+        <label for="firstname" class="form__label">{{ form-content.firstname.title }}<span
+                class="form__text--required">*</span></label>
+    </div>
+    <div class="form__content">
+        <span class="form__error-text">Last name is required</span>
+        <input type="text" class="form__input js-form__input" id="lastname" name="LastName"
+            placeholder="{{ form-content.lastname.title }}" aria-label="{{ form-content.lastname.aria-label }}">
+        <label for="lastname" class="form__label">{{ form-content.lastname.title }}<span
+                class="form__text--required">*</span></label>
+    </div>
+    <div class="form__content">
+        <span class="form__error-text">Email is not entered or entered incorrectly</span>
+        <input type="email" class="form__input js-form__input" id="email" name="Email" placeholder="{{ form-content.email.title }}"
+            aria-label="{{ form-content.email.aria-label }}">
+        <label for="email" class="form__label">{{ form-content.email.title }}<span
+                class="form__text--required">*</span></label>
+    </div>
+    <div class="form__content">
+        <input type="text" class="form__input" id="skypeid" name="SkypeID"
+            placeholder="{{ form-content.skype-id.title }}" aria-label="{{ form-content.skype-id.aria-label }}">
+        <label for="skypeid" class="form__label">{{ form-content.skype-id.title }}</label>
+    </div>
+</section>

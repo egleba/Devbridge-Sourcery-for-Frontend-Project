@@ -1,0 +1,30 @@
+$footer-shadow: rgba(0, 0, 0, .16);
+
+.footer {
+  background-color: $color-white;
+  box-shadow: 0 -2px 4px 0 $footer-shadow;
+  flex-shrink: 0;
+  min-width: 30rem;
+  position: relative;
+  z-index: map-get($z-index, header);
+
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 10.4rem;
+    justify-content: center;
+
+    @include tablet {
+      flex-direction: row;
+      height: 9.6rem;
+      justify-content: space-between;
+    }
+  }
+
+  &__text {
+    color: $color-main-dark;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,21 @@
+<fieldset class="academy-type">
+  <div class="academy-type__text text--small text--color-label-blue">
+    {{ academy-type.title }}
+  </div>
+  <div class="academy-type__radio">
+    <div class="academy-type__radio-element">
+      <input class="academy-type__input" id="developers" type="radio" name="academy-type" value="developers"
+        required="required">
+      <label class="academy-type__label text--large" for="developers">{{ academy-type.academies.[0] }}</label>
+    </div>
+    <div class="academy-type__radio-element">
+      <input class="academy-type__input" id="testers" type="radio" name="academy-type" value="testers">
+      <label class="academy-type__label text--large" for="testers">{{ academy-type.academies.[1] }}</label>
+    </div>
+    <div class="academy-type__radio-element">
+      <input class="academy-type__input" id="frontend" type="radio" name="academy-type" value="frontend">
+      <label class="academy-type__label text--large" for="frontend">{{ academy-type.academies.[2] }}</label>
+    </div>
+  </div>
+  <span class="academy-type__error-text">Please select academy type</span>
+</fieldset>

@@ -1,0 +1,59 @@
+.burger {
+  $_this: &;
+
+  background-color: $color-white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  outline: 0;
+  padding: 10px 0 10px 10px;
+
+  &__icon {
+    cursor: pointer;
+    fill: $color-main-dark;
+    height: 20px;
+    pointer-events: none;
+    width: 27px;
+
+    #{$_this}__icon-bar {
+      transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+    }
+
+    #{$_this}__icon-bar:nth-of-type(1) {
+      transform-origin: 24px 4px;
+    }
+
+    #{$_this}__icon-bar:nth-of-type(3) {
+      transform-origin: 22px 27px;
+    }
+  }
+
+  &.is-active {
+    position: absolute;
+    right: 2rem;
+    top: 1.6rem;
+
+    @include tablet {
+      right: 4rem;
+      top: 2.8rem;
+    }
+
+    #{$_this}__icon {
+      #{$_this}__icon-bar:nth-of-type(1) {
+        transform: rotate(-45deg) translateY(0) translateX(0) scaleX(.89);
+      }
+
+      #{$_this}__icon-bar:nth-of-type(2) {
+        opacity: 0;
+      }
+
+      #{$_this}__icon-bar:nth-of-type(3) {
+        transform: rotate(45deg) translateY(.25em) translateX(-.7em) scaleX(1.21);
+      }
+    }
+  }
+
+  @include desktop {
+    display: none;
+  }
+}

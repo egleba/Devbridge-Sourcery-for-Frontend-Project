@@ -1,0 +1,100 @@
+.form {
+  $_this: &;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-height: 10.7rem;
+  }
+
+  &__input {
+    border: .1rem solid $color-form-border;
+    border-radius: .8rem;
+    color: var(--color-black);
+    height: 4.7rem;
+    outline: none;
+    padding-left: 1.4rem;
+    transition: box-shadow .3s ease-in-out;
+    width: 100%;
+
+    &:focus,
+    &:hover {
+      background-image: none;
+      border: .1rem solid var(--color);
+      box-shadow: 0 0 0 .1rem var(--color);
+
+      + #{$_this}__label {
+        color: var(--color-primary);
+      }
+    }
+
+    @include desktop {
+      max-width: 50.9rem;
+    }
+  }
+
+  &__input:focus::placeholder {
+    opacity: 0;
+  }
+
+  &__input:disabled {
+    background-color: var(--color-white);
+    border: .1rem solid $color-form-disabled;
+    box-shadow: none;
+
+    + #{$_this}__label {
+      color: $color-form-disabled;
+    }
+
+    &::placeholder {
+      color: $color-form-disabled;
+    }
+  }
+
+  &__error {
+    background-image: url('/assets/error.svg');
+    background-position: center right 1.6rem;
+    background-repeat: no-repeat;
+    border: .1rem solid $color-main-error;
+    box-shadow: 0 0 0 .1rem $color-main-error;
+
+    + #{$_this}__label {
+      color: $color-main-error;
+    }
+  }
+
+  &__error-text {
+    color: $color-main-error;
+    font-size: 1.2rem;
+    height: 1.4rem;
+    margin-top: .5rem;
+    opacity: 0;
+    transition: opacity .3s .5s;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__label {
+    color: $color-form-border;
+    font-size: 1.4rem;
+    margin-top: .8rem;
+    pointer-events: none;
+  }
+
+  &__text--required {
+    color: $color-main-error;
+    font-size: 2rem;
+  }
+}

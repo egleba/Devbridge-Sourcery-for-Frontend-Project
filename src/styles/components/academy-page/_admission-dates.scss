@@ -1,0 +1,50 @@
+.admission-dates {
+  align-items: center;
+  color: var(--color);
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    align-items: flex-end;
+  }
+
+  &__table--wrapper {
+    max-width: 30.4rem;
+  }
+
+  &__dates--wrapper {
+    width: 10rem;
+  }
+
+  &__text--wrapper {
+    width: 20.4rem;
+  }
+
+  &__row {
+    align-items: center;
+    background-color: $color-white;
+    border: .2rem solid;
+    border-radius: .8rem;
+    display: inline-flex;
+    margin-bottom: 1rem;
+    min-height: 5.1rem;
+  }
+
+  &__text {
+    align-items: center;
+    border-left: 2px solid;
+    display: flex;
+    min-height: 3.5rem;
+    padding-left: 1.6rem;
+  }
+
+  &__dates {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__months {
+    margin-bottom: -.55rem;
+    word-spacing: 1.2rem;
+  }
+}

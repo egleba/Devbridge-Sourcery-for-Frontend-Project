@@ -1,0 +1,113 @@
+.schedule {
+  color: var(--color);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: $section-padding-mobile;
+  padding-top: $section-padding-mobile;
+
+  @include desktop {
+    padding-bottom: 10rem;
+    padding-top: 16rem;
+  }
+
+  &__track-div {
+    overflow: visible;
+
+    &.carousel {
+      overflow: hidden;
+    }
+  }
+
+  .glide__arrow {
+    border: unset;
+    box-shadow: none;
+    display: none;
+    top: 3rem;
+
+    &.active {
+      display: block;
+    }
+
+    &--left {
+      left: -4em;
+    }
+
+    &--right {
+      right: -4.5em;
+    }
+  }
+
+  &__own-arrow {
+    width: 4rem;
+  }
+
+  &__heading {
+    margin-bottom: 8rem;
+    text-align: center;
+  }
+
+  &__months-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    @include desktop {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__month {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+
+    @include desktop {
+      margin-bottom: 0;
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+    }
+  }
+
+  &__columns-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @include tablet {
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    @include desktop {
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+
+  &__cards-column {
+
+    @include tablet {
+      padding-left: 2rem;
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+    }
+  }
+
+  &__subheading {
+    text-align: center;
+    width: 100%;
+  }
+}
