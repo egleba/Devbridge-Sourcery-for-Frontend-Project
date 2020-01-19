@@ -6,14 +6,14 @@ Devbridge Sourcery for Front-End Academy 2019 Final Team Project.
 
 ## Live preview
 
-* You can preview live project here:
+You can preview live project here:
 [https://sourceryacademy.netlify.com/](https://sourceryacademy.netlify.com/)
 
 
 
 ## Prerequisites
 
-[Node](https://nodejs.org/en/
+[Node](https://nodejs.org/en/)
 
 
 
