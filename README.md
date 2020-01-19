@@ -39,7 +39,7 @@ Run `npm run build`. This command compiles source code and saves all generated f
 ## Authors
 
 
-The best team ever **no-conflicts** 
+The best team ever [**no-conflicts**](https://www.facebook.com/devbridge/photos/a.2566571313396895/2566577170062976/?type=3&theater) 
 
 including me:
 * Eglė Baltušnikienė
